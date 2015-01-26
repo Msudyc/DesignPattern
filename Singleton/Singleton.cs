@@ -20,7 +20,7 @@ namespace DesignPattern
     public class Singleton
     {
         private static Singleton instance;
-        private static object syncRoot = new Object();
+        private static Object syncRoot = new Object();
 
         private Singleton()
         {
